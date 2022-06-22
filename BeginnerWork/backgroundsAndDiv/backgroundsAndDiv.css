@@ -1,0 +1,18 @@
+h1 {
+  color: Gainsboro;
+  margin-left: 50px;
+  background-color: Peru;
+  text-align: center;
+}
+
+p {
+  color: white;
+  background-color: RebeccaPurple;
+  text-align: left;
+}
+
+div {
+  color: black;
+  background-color: WhiteSmoke;
+  text-align: right;
+}
