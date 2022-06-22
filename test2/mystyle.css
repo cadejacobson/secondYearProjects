@@ -1,0 +1,18 @@
+/* This is a very base level intro to css that I am teaching myself */
+/* The introductory files will not look good at all, but that's part of learning */
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  background-color: Peru;
+  text-align: center;
+}
+
+p {
+  color: white;
+  background-color: RebeccaPurple;
+  text-align: left;
+}
