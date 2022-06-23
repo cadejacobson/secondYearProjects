@@ -1,0 +1,28 @@
+body {
+    background-image: url("mistyForest.jpg");
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb( 62, 78, 94);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30x 160px;
+    text-decoration: none;
+}
+
+li a:hover { 
+    background-color: rgb(193, 199, 211);
+}
