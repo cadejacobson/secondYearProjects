@@ -3,10 +3,16 @@ body {
     background-size: cover;
 }
 
+h1 {
+    font-family: Papyrus;
+    
+}
+
 ul {
   position: fixed;
   width: 28%;
   list-style-type: none;
+  top: 10%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -37,4 +43,46 @@ li:last-child{
 
 .active {
     background-color: #337955;
+}
+
+p {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  font-size: 16px;
+  text-align: right;
+}
+
+#round1 {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    border-radius: 15px 50px;
+    background: #1f4a34;
+    width: 400px;
+    height: 200px;
+}
+
+#round2 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    border-radius: 50px 15px;;
+    background: #1f4a34;
+    width: 400px;
+    height: 200px;
+}
+
+#round3 {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    border-radius: 15px 50px;
+    background: #1f4a34;
+    width: 300px;
+    height: 200px;
+}
+
+div {
+  text-align: right;  
 }
