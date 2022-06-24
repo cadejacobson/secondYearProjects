@@ -58,7 +58,8 @@ p {
     top: 150px;
     left: 300px;
     border-radius: 15px 50px;
-    background: #1f4a34;
+    background-image: url("Denver_skyline.jpg");
+    background-size: cover;
     width: 400px;
     height: 200px;
 }
@@ -68,7 +69,8 @@ p {
     top: 150px;
     right: 300px;
     border-radius: 50px 15px;;
-    background: #1f4a34;
+    background-image: url("rockies.jpg");
+    background-size: cover;
     width: 400px;
     height: 200px;
 }
