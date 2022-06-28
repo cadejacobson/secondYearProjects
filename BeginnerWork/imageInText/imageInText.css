@@ -13,7 +13,8 @@
 
 html,
 body {
-    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -88,10 +89,8 @@ body {
     margin: .25em;
     padding: .5em .75em;
     text-align: center;
-    /* Color fallback */
     color: #fff;
     -webkit-background-clip: text;
-
     -webkit-text-fill-color: transparent;
 }
 
@@ -101,7 +100,6 @@ body {
     content: '';
 }
 
-/* Background */
 .clip-text:before {
     z-index: -2;
     top: 0;
@@ -111,7 +109,7 @@ body {
     background-image: inherit;
 }
 
-/* Text Background (black zone) */
+
 .clip-text:after {
     position: absolute;
     z-index: -1;
@@ -122,7 +120,7 @@ body {
     background-color: #000;
 }
 
-/* Change the background position to display letter when the black zone isn't here */
+
 .clip-text--no-textzone:before {
     background-position: -.75em 0;
 }
@@ -131,7 +129,6 @@ body {
     content: none;
 }
 
-/* Use Background-size cover for photo background and no-repeat background */
 .clip-text--cover,
 .clip-text--cover:before {
     background-repeat: no-repeat;
@@ -140,8 +137,8 @@ body {
   background-position: 50% 50%;
 }
 
-/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_one {
     background-image: url("steve_jobs.jpg");
     font-size: 12px;
+    background-position: center;
 }
