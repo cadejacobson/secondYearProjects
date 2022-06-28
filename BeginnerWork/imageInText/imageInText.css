@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    background: url("steve_jobs.jpg");
+    background-size: cover;
+    -webkit-background-clip: text;
+}
