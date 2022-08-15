@@ -1,43 +1,19 @@
-div {
-    width: 100%;
-    height: 300px;
-    background-size: cover;
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+    
 }
 
-.gallery {
-    display: flex;
-    padding: 2px;
-    transition: .3s;
-    width: 1    00%;
-    height: auto;   
-    
-    &:hover &__image {
-        filter: grayscale(1);
-    }
-    
-    &__column {
-        display: flex;
-        flex-direction: column;
-        width: 10px;
-    }
-    
-    &__link {
-        margin: 2px;
-        overflow: hidden;
-		}
-	}
-    
-    &__thumb {
-        position: relative;
-    }
-	
-	&__image {
-		display: block;
-		width: 100%;
-		transition: .3s;
-		
-		&__:hover {
-			transform: scale(1.1);
-		}
-	}
+.gallery img {
+    width: 100%;
+}
+
+.gallery .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .item img{
+    vertical-align: middle;
 }
