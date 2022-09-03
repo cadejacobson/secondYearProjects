@@ -4,4 +4,5 @@
 using namespace std;
 
 void outputChoices( int* cases );
-void outputValues(int *cases);
+void outputEndingMessage(int winnings);
+void outputSingleValue(int caseValue);

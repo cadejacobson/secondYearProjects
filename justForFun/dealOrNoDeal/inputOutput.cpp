@@ -17,24 +17,18 @@ void outputChoices(int *temp)
 }
 
 
-void outputValues(int *temp)
+void outputSingleValue(int caseValue)
 {
-    int i = 1;
-    int* parse = temp;
-
-    parse += 1;
-
-    while(i < 26)
-    {
-        cout << setw(10) << *parse;
-
-        if( i % 5 == 0)
-            cout << endl;
-
-        parse++;
-        i++;
-    }
-
+    cout << "This case was worth: " << caseValue << " dollars." << endl;
 
     return;
+}
+
+
+
+void outputEndingMessage(int winnings)
+{
+    cout << endl;
+    cout << "Congratulations! You have won "  << winnings << " dollars!" << endl;
+    cout << "Thank you for playing!" << endl;
 }

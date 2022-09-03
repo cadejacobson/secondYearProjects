@@ -23,7 +23,14 @@ int main() {
 
     outputChoices(selectedLookup );
 
-    outputValues(caseValues);
+    //debugging statements
+    cout << endl;
+    cout << "Your case value is: " << caseValues[chosenCase] << ". Shhhhh, it's a secret!" << endl;
+    cout << "It's how we debug :) " << endl;
+
+    
+
+    outputEndingMessage(caseValues[chosenCase]);
 
     return 0;
 }
