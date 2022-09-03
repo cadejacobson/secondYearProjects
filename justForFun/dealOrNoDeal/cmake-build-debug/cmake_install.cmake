@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/101083765/Desktop/CSC315/CLionProjects/dealOrNoDeal
+# Install script for directory: C:/Users/101083765/Desktop/Independent/css/justForFun/dealOrNoDeal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/101083765/Desktop/CSC315/CLionProjects/dealOrNoDeal/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/101083765/Desktop/Independent/css/justForFun/dealOrNoDeal/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

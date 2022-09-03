@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/101083765/Desktop/CSC315/CLionProjects/dealOrNoDeal/cmake-build-debug"
+			"value" : "c:/Users/101083765/Desktop/Independent/css/justForFun/dealOrNoDeal/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/101083765/Desktop/CSC315/CLionProjects/dealOrNoDeal"
+			"value" : "C:/Users/101083765/Desktop/Independent/css/justForFun/dealOrNoDeal"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/101083765/Desktop/CSC315/CLionProjects/dealOrNoDeal/cmake-build-debug"
+			"value" : "C:/Users/101083765/Desktop/Independent/css/justForFun/dealOrNoDeal/cmake-build-debug"
 		},
 		{
 			"name" : "dealOrNoDeal_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/101083765/Desktop/CSC315/CLionProjects/dealOrNoDeal"
+			"value" : "C:/Users/101083765/Desktop/Independent/css/justForFun/dealOrNoDeal"
 		}
 	],
 	"kind" : "cache",

@@ -23,5 +23,7 @@ int main() {
 
     outputChoices(selectedLookup );
 
+    outputValues(caseValues);
+
     return 0;
 }
