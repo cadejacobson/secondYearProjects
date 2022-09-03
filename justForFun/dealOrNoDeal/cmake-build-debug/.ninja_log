@@ -1,0 +1,26 @@
+# ninja log v5
+1	146	6838591968073675	build.ninja	30ece624e27faf33
+30	679	6838589955220675	CMakeFiles/dealOrNoDeal.dir/random.cpp.obj	fcabc7aa6a2fa7b1
+1127	1528	6838589963424876	dealOrNoDeal.exe	fd35ca00de58ee23
+5	1126	6838589959549462	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+18	715	6838589955579714	CMakeFiles/dealOrNoDeal.dir/inputOutput.cpp.obj	c20e99606748f61f
+4	657	6838592794830315	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+657	780	6838592796087372	dealOrNoDeal.exe	fd35ca00de58ee23
+5	682	6838593256306081	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+683	806	6838593257532752	dealOrNoDeal.exe	fd35ca00de58ee23
+6	497	6838593437413347	CMakeFiles/dealOrNoDeal.dir/random.cpp.obj	fcabc7aa6a2fa7b1
+498	634	6838593438736552	dealOrNoDeal.exe	fd35ca00de58ee23
+16	511	6838594019404259	CMakeFiles/dealOrNoDeal.dir/random.cpp.obj	fcabc7aa6a2fa7b1
+5	696	6838594021249389	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+696	825	6838594022504237	dealOrNoDeal.exe	fd35ca00de58ee23
+16	527	6838597021086217	CMakeFiles/dealOrNoDeal.dir/random.cpp.obj	fcabc7aa6a2fa7b1
+24	566	6838597021504771	CMakeFiles/dealOrNoDeal.dir/inputOutput.cpp.obj	c20e99606748f61f
+5	701	6838597022861135	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+701	817	6838597023988128	dealOrNoDeal.exe	fd35ca00de58ee23
+17	805	6839261657839886	CMakeFiles/dealOrNoDeal.dir/inputOutput.cpp.obj	c20e99606748f61f
+5	848	6839261658232470	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+20	592	6839262032168419	CMakeFiles/dealOrNoDeal.dir/random.cpp.obj	fcabc7aa6a2fa7b1
+9	742	6839262033685337	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+743	1052	6839262036735140	dealOrNoDeal.exe	fd35ca00de58ee23
+6	659	6839262361169380	CMakeFiles/dealOrNoDeal.dir/main.cpp.obj	e3e9b417a20597c0
+660	802	6839262362534507	dealOrNoDeal.exe	fd35ca00de58ee23
