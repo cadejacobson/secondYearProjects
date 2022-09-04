@@ -3,4 +3,4 @@ project(dealOrNoDeal)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(dealOrNoDeal main.cpp inputOutput.cpp random.cpp)
+add_executable(dealOrNoDeal main.cpp inputOutput.cpp random.cpp rounds.cpp)

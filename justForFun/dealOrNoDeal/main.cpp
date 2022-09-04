@@ -1,5 +1,6 @@
 #include "inputOutput.h"
 #include "random.h"
+#include "rounds.h"
 
 int main() {
     int selectedLookup[26] = {0};       //zero will not be used for simplicity
@@ -28,9 +29,9 @@ int main() {
     cout << "Your case value is: " << caseValues[chosenCase] << ". Shhhhh, it's a secret!" << endl;
     cout << "It's how we debug :) " << endl;
 
-    
+    playRound(6, caseValues, selectedLookup);
 
-    outputEndingMessage(caseValues[chosenCase]);
+    outputEndingMessage(caseValues[chosenCase]);  //move these inside of the playRound
 
     return 0;
 }

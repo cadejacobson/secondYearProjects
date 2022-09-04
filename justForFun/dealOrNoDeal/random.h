@@ -1,4 +1,5 @@
 #include <random>
+#pragma once
 
 using namespace std;
 

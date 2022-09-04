@@ -17,6 +17,41 @@ void outputChoices(int *temp)
 }
 
 
+void outputRemainingValues(int *values, int *lookup)
+{
+    int i;
+    int orderedValues[26] = {0};
+
+    cout << endl;
+
+    for(i = 1; i < 26; i++)
+    {
+        if( lookup[i] == 0 )
+            orderedValues[26];
+        else
+            cout << setw(10) << " ";
+
+        if( i % 2 == 0 )
+            cout << endl;
+    }
+
+    for(i = 1; i < 26; i++)
+    {
+        if( orderedValues[i] == 0 )
+            cout << setw(10) << orderedValues[i];
+        else
+            cout << setw(10) << " ";
+
+        if( i % 2 == 0 )
+            cout << endl;
+    }
+
+    cout << endl;
+
+    return;
+}
+
+
 void outputSingleValue(int caseValue)
 {
     cout << "This case was worth: " << caseValue << " dollars." << endl;
