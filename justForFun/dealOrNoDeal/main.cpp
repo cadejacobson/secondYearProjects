@@ -29,7 +29,7 @@ int main() {
     cout << "Your case value is: " << caseValues[chosenCase] << ". Shhhhh, it's a secret!" << endl;
     cout << "It's how we debug :) " << endl;
 
-    playRound(6, caseValues, selectedLookup);
+    playRound( chosenCase, 6, caseValues, selectedLookup);
 
     outputEndingMessage(caseValues[chosenCase]);  //move these inside of the playRound
 

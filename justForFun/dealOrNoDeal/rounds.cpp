@@ -1,7 +1,7 @@
 #include "rounds.h"
 #include "inputOutput.h"
 
-void playRound( int caseCount, int *cases, int* lookup )
+void playRound( int selectedCase, int caseCount, int *cases, int* lookup )
 {
     string continuePlaying;
     int userInput;
@@ -40,7 +40,7 @@ void playRound( int caseCount, int *cases, int* lookup )
     getline(cin, continuePlaying);
     if( continuePlaying == "No deal" || continuePlaying == "no deal")
     {
-        playRound(caseCount - 1, cases, lookup);
+        playRound(selectedCase, caseCount - 1, cases, lookup);
     }
 
     //put an accept or decline version here.

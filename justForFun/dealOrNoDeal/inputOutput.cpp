@@ -26,18 +26,14 @@ void outputRemainingValues(int *values, int *lookup)
 
     for(i = 1; i < 26; i++)
     {
-        if( lookup[i] == 0 )
-            orderedValues[26];
-        else
-            cout << setw(10) << " ";
-
-        if( i % 2 == 0 )
-            cout << endl;
+        orderedValues[i] = values[i];
     }
+
+    sort(&orderedValues[0], &orderedValues[26]);
 
     for(i = 1; i < 26; i++)
     {
-        if( orderedValues[i] == 0 )
+        if( lookup[i] == 0 )
             cout << setw(10) << orderedValues[i];
         else
             cout << setw(10) << " ";

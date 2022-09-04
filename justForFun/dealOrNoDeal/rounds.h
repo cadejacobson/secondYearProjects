@@ -5,4 +5,4 @@
 
 using namespace std;
 
-void playRound(int caseCount, int *cases, int* lookup);
+void playRound(int selectedCase, int caseCount, int *cases, int* lookup);
