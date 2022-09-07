@@ -55,6 +55,8 @@ void outputRemainingValues(int *values, int *lookup)
 
     cout << endl;
 
+    outputOffer(remainingValues);
+
     return;
 }
 
@@ -73,4 +75,23 @@ void outputEndingMessage(int winnings)
     cout << endl;
     cout << "Congratulations! You have won "  << winnings << " dollars!" << endl;
     cout << "Thank you for playing!" << endl;
+}
+
+void outputOffer(vector<int> cases)
+{
+    int i;
+    long long int squaredValues;
+    double offerValue;
+
+    for(i = 1; i < cases.size(); i++)
+    {
+        squaredValues += cases[i] * cases[i];
+    }
+
+    offerValue = sqrt(squaredValues / cases.size());
+
+    cout << "Your offer is: " << fixed << setprecision(2 ) << offerValue << "." << endl;
+    cout << "Deal or no deal?"<< endl;
+
+    return;
 }

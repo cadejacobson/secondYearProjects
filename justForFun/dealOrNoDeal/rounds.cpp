@@ -27,13 +27,9 @@ void playRound( int selectedCase, int caseCount, int *cases, int* lookup )
 
     outputChoices(lookup);
 
-    //add a way of outputting the remaining values here
-    //add the calculation here as well
-
+    lookup[selectedCase] = 0;
     outputRemainingValues(cases, lookup);
-
-    cout << "Your offer is one Billion dollars." << endl;
-    cout << "Deal or no deal?" << endl;
+    lookup[selectedCase] = 1;
 
     cin.ignore();
 
