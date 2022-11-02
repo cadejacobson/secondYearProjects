@@ -1,0 +1,23 @@
+.gallery {
+    display: inline-flex;
+    flex-direction: vertical;
+    grid-gap: 10px;
+    align-content: flex-start;
+    max-width: 100%;
+}
+
+.gallery img {
+    display: inline-block;
+    max-width: 25%;
+    width: 100%;
+    height: auto;
+}
+
+.gallery .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .item img{
+    vertical-align: middle;
+}
