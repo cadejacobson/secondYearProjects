@@ -88,7 +88,8 @@ void outputOffer(vector<int> cases)
         squaredValues += cases[i] * cases[i];
     }
 
-    offerValue = sqrt(squaredValues / cases.size());
+    offerValue = pow(sqrt(sqrt(squaredValues / cases.size())), 1.3);
+
 
     cout << "Your offer is: " << fixed << setprecision(2 ) << offerValue << "." << endl;
     cout << "Deal or no deal?"<< endl;
