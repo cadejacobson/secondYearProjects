@@ -79,6 +79,7 @@ bool makeRookMove(vector<vector<string>>& board, string& userInput, int& sideMov
     int newRank = userInput[2] - 48;      // add more
     newRank = 8 - newRank;
     string color = "wr";
+    bool legal = true;
 
     if (sideMove % 2 == 1)
         color = "br";
@@ -89,9 +90,25 @@ bool makeRookMove(vector<vector<string>>& board, string& userInput, int& sideMov
         {
             if(board[i][j] == color && (newRank == i || newFile == j))
             {
-                board[i][j] = "  ";
-                board[newRank][newFile] = color;
-                return true;
+
+                for(int t = i; t < newRank; t++)
+                {
+                    if(board[t][j] != "  " && board[t][j] != color)
+                        legal = false;
+                }
+
+                for(int t = j; t < newFile; t++)
+                {
+                    if(board[i][t] != "  " && board[i][t] != color)
+                        legal = false;
+                }
+
+                if(legal)
+                {
+                    board[i][j] = "  ";
+                    board[newRank][newFile] = color;
+                    return true;
+                }
             }
         }
     }
