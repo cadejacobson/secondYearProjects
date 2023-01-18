@@ -19,6 +19,10 @@ bool makeMove(vector<vector<string>>& board, string& userInput, int& sideMove)
     {
         return makePawnMove(board, userInput, sideMove);
     }
+    else if (userInput[0] == 'r')
+    {
+        return makeRookMove(board, userInput, sideMove);
+    }
     return true;    //change?
 }
 
@@ -69,9 +73,42 @@ bool makePawnMove(vector<vector<string>> &board, string &userInput, int &sideMov
 }
 
 
+bool makeRookMove(vector<vector<string>>& board, string& userInput, int& sideMove)
+{
+    int newFile = userInput[1] - 97;      // currently jumps over other pawns
+    int newRank = userInput[2] - 48;      // add more
+    newRank = 8 - newRank;
+    string color = "wr";
+
+    if (sideMove % 2 == 1)
+        color = "br";
+
+    for (int i = 0; i < 8; i++)
+    {
+        for(int j = 0; j < 8; j++)
+        {
+            if(board[i][j] == color && (newRank == i || newFile == j))
+            {
+                board[i][j] = "  ";
+                board[newRank][newFile] = color;
+                return true;
+            }
+        }
+    }
+
+    /*
+        will eventually need to code for the same rooks on the same file
+        may be out of the scope of this project though.
+    */
+
+    return false;
+}
+
+
 bool makeBishopMove(vector<vector<string>>& board, string& userInput, int& sideMove)
 {
 
 
     return false;
 }
+
