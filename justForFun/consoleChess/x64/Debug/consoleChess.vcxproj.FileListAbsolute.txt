@@ -1,1 +1,2 @@
 C:\Users\101083765\Desktop\Independent\C++\consoleChess\x64\Debug\consoleChess.exe
+C:\Users\101083765\Desktop\Independent\repo\justForFun\consoleChess\x64\Debug\consoleChess.exe
